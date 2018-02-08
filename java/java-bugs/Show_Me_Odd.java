@@ -34,6 +34,10 @@
 
             {
 
+              /*
+               * Taking the modules of a negative odd number in Java won't always
+               * result in positive 1. But will always not equal to 0.
+               */
                 if(a[i] % 2 != 0)
 
                 {
