@@ -1,0 +1,44 @@
+
+.background {
+	background-color : #000000;
+	color :white;
+	font-family :  Times New Roman;
+	padding :0;
+	padding : 0;
+	height :100px;
+}
+
+.name {
+	margin: center;
+	text-align: center;
+	border:10px solid grey;
+}
+
+.bodycontainer {
+	width:100%; 
+	height:100%;	
+	margin:0;
+	text-align: center;
+	background-color : #000000;
+	color :white;
+	font-family :  Times New Roman;	
+}	
+
+
+.pictureborder {
+	text-align: center;
+	height: 250px;
+	margin: center;
+	border:10px solid grey;
+	
+}
+h3 {
+	text-align : Left;
+	padding-top: 50px;
+	text-decoration: underline;
+	
+}
+
+	
+
+
