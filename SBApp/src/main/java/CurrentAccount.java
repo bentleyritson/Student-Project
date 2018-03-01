@@ -1,8 +1,9 @@
 public class CurrentAccount extends Account {
 
-    private double overdraft = 5000;
     private int accountNumber;
     private double balance;
+
+    private double overdraft = 5000;
     private double withdrawtemp;
     private double tempbalance;
 
@@ -16,7 +17,7 @@ public class CurrentAccount extends Account {
     public CurrentAccount(double balance, int accountNumber){
         this.balance = balance;
         this.accountNumber = accountNumber;
-        System.out.println("Before Transaction");
+        System.out.println("Balances before Transaction");
         System.out.println("Acc. No : " + this.accountNumber +" Acc Bal. : " + this.balance + "\n");
     }
 
